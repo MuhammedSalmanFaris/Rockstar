@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+ overflow-x: hidden;
+background: rgba(0, 0, 0, 0.938);
+margin:0;
+font-family: 'Helvetica Now Text';
+width: 100%;
+height: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height:80px;
+    background-color: rgba(0,0,0,.85);
+    backdrop-filter: blur(10px);
+}
+
+.logo{
+   
+   float: left;
+   color:rgb(170, 159, 159);
+   padding: 20px 87px;
+   margin-top: 2px;
+
+
+}
+
+.navbar{
+    display: flex;
+
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  
+    
+}
+
+.navbar a{
+    padding: 30px 26px ;
+    text-decoration: none;
+    font-size:16.5px ;
+    color: white;
+    
+}
+
+.navbar a.share{
+    padding-right: 5px;
+}
+
+.navbar img{
+    width: 17px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    margin-right: 67px;
+}
+
+.button a{
+    padding: 11px 16px;
+    background-color:#fcaf17 ;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    
+}
+
+.button img.search{
+    margin: 30px;
+   
+}
+
+.button img.user{
+    margin: 4px;
+}
+
+.search{
+    margin:0;
+}
+
+.user
+{
+    margin: 4px;
+    width: 36px;
+}
+
+.herocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    padding: 50px;
+    margin-bottom: 0px;
+}
+
+.frame{
+    position: relative;
+    width:96%;
+    height: 53vh;
+    border-radius: 10px;
+   
+}
+
+.frame img{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius:10px;
+    position: absolute;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 93%;
+    height: 49vh;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container1 .position{
+    position: relative;
+    width: 26%;
+    height: 88%;
+    margin: 16px;
+    
+}
+
+.container1 .position img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+    
+}
+
+.container1-last{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 93%;
+    height: 50vh;
+    margin: auto ;
+    border-radius: 10px;
+}
+
+.final{
+    width: 100%;
+    height:54vh ;
+    background-color: black;
+    margin-top: 70px;
+    
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+    padding-right: 75px;
+}
+
+.footer ul{
+    display: flex;
+    color:white;
+    padding: 4px;
+    
+}
+
+.footer ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 30px;
+}
+.footer ul li.size{
+    font-size: 16px;
+    
+    
+}
+
+
+.footer ul.select{
+    display: flex;
+    align-items:center;
+    
+}
+
+.footer ul.select li{
+    padding: 1px;
+}
+
+.footer li.share{
+    padding-right:10px;
+    
+}
+
+.footer img{
+    width: 20px;
+   
+}
+ul img.down{
+    display: flex;
+    width: 30px;
+    margin: 35px 10px;
+}
+
+.policy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.policy ul {
+    display: flex;
+    color:white;
+    padding: 15px 81px;
+   
+    
+}
+
+.policy ul li{
+    padding: 10px;
+    list-style-type: none;
+    font-size: 18px;
+    color: rgba(235, 222, 222, 0.637);
+}
+
+.policy ul img{
+    padding: 20px;
+}
+
+.rock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 90px;
+    padding-right: 100;
+}
+
+.rock ul{
+    list-style: none;
+    padding: 50px 45px;
+    top: 25px;
+    margin: 40px;
+}
+
+.new{
+    display: flex;
+    align-items: center;
+  
+}
+
+ul.new li{
+    padding: 0 9px;
+}
